@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/mlflow/mlruns/0/f07a36be2c964d05a3343df451ed728c/artifacts
+end_time: 1745235217776
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f07a36be2c964d05a3343df451ed728c
+run_name: exultant-robin-860
+run_uuid: f07a36be2c964d05a3343df451ed728c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745235212268
+status: 3
+tags: []
+user_id: ssclb
