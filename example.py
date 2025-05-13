@@ -12,8 +12,6 @@ import mlflow
 import mlflow.sklearn
 
 import logging
-import dagshub
-dagshub.init(repo_owner='nafiz09', repo_name='mlflow', mlflow=True)
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
