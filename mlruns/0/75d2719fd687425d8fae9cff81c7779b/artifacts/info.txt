@@ -1,0 +1,2 @@
+This is an example artifact.
+Accuracy: 0.85
