@@ -78,7 +78,7 @@ This will:
 This file defines and connects the services: PostgreSQL, MinIO, and MLflow. 
 ### 🧩 Services
 
-1. PostgreSQL
+__1. PostgreSQL__
 ```
   postgres:
     image: postgres:13
@@ -102,7 +102,7 @@ This file defines and connects the services: PostgreSQL, MinIO, and MLflow.
 | `volumes`     | Persists database data across restarts.                        |
 | `ports`       | Maps container port 5432 to host, enabling external DB access. |
 
-2. MinIO (S3-Compatible Storage)
+__2. MinIO (S3-Compatible Storage)__
 ```
   minio:
     image: minio/minio
@@ -130,7 +130,7 @@ This file defines and connects the services: PostgreSQL, MinIO, and MLflow.
 
 
 
-3. MLflow Server
+__3. MLflow Server__
 ```
   mlflow:
     build:
@@ -177,6 +177,13 @@ Docker Compose ensures these services:
   - Persist their data
 ```
 
+## Mlflow and MINIO UI
+#### Mlflow UI
+![Alt text](src/1.jpg)
+
+#### MINIO UI
+![Alt text](src/2.jpg)
+
 ---
 
 ## 📁 Volumes and Data Persistence
@@ -206,6 +213,8 @@ Docker Compose ensures these services:
 
 - MLflow uses **S3-style URIs** for artifact storage (e.g., `s3://mlflow/`).
 - Ensure `mlflow` bucket exists in MinIO or configure MLflow to create it automatically.
+
+![Alt text](src/3.jpg)
 ---
 
 ## 🧼 Teardown
