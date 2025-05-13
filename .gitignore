@@ -1,1 +1,8 @@
 myenv
+mlruns
+README_detailed.md
+example.py
+mlflow_locally.py
+model.pkl
+output.txt
+test_code.py
